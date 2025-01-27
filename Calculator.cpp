@@ -7,7 +7,7 @@ int main() {
         system("chcp 65001>nul"); // 设置编码为UTF-8
     #endif
     cout << fixed << setprecision(2);
-    cout << "欢迎使用计算器！" << endl;
+    cout << "欢迎使用四则计算器！" << endl;
     int num1, num2;
     float _result;
     bool calculate_flag = false;
